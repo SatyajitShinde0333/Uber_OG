@@ -1,3 +1,5 @@
+//Backend/models/user.model.js
+
 const { Socket } = require('dgram');
 const mongoose = require('mongoose');
 const { type } = require('os');
