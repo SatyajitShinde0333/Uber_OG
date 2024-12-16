@@ -17,9 +17,9 @@ const UserSignup = () => {
   const submitHandler = async (e) => {
     e.preventDefault()
     const newUser = {
-      fullName: {
-        firstName: firstName,
-        lastName: lastName
+      fullname: {
+        firstname: firstName,
+        lastname: lastName
       },
       email: email,
       password: password
@@ -29,6 +29,7 @@ const UserSignup = () => {
     if (response.status === 201) {
       const data = response.data
       setUser(data.user)
+      localStorage.setItem('token', data.token)
       navigate('/home')
     }
 
