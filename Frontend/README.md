@@ -126,16 +126,7 @@ This format provides a clear and organized way to present the project structure 
 
 This project is the frontend for the UberSatyajit application, built using React and Vite. It provides a user-friendly interface for both users and captains to interact with the Uber service.
 
-## Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [File Descriptions](#file-descriptions)
-- [Setup Instructions](#setup-instructions)
-- [Running the Application](#running-the-application)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
