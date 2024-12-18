@@ -140,7 +140,7 @@ const Home = () => {
                 setPickup(e.target.value)
               }}
 
-              className='bg-[#eee] px-12 py-2 text-lg rounded-lg w-full mt-5'
+              className='bg-[#eee] px-12 py-2 text-lg rounded-lg w-full mt-3'
               type="text"
               placeholder='Add a pick location'
 
