@@ -45,6 +45,14 @@ const Home = () => {
     socket.emit("join", { userType: "user", userId: user._id })
   }, [user])
 
+  socket.on('ride-confirmed', ride => {
+
+
+    setVehicleFound(false)
+    setWaitingForDriver(true)
+    setRide(ride)
+})
+
 
 
 
