@@ -11,7 +11,7 @@ const RidePopUp = (props) => {
             <div className='flex items-center justify-between p-3 bg-yellow-400 rounded-lg mt-4'>
                 <div className='flex items-center gap-3'>
                     <img className='h-12 rounded-full object-cover w-10' src="https://i.pinimg.com/236x/af/26/28/af26280b0ca305be47df0b799ed1b12b.jpg" alt=""/>
-                    <h2 className='text-lg font-medium'>Robin Roy</h2>
+                    <h2 className='text-lg font-medium'>{props.ride?.user.fullname.firstname + " "+props.ride?.user.fullname.lastname }</h2>
 
                 </div>
                 <h5 className='text-lg font-semibold'>2.7 Km</h5>
@@ -22,20 +22,20 @@ const RidePopUp = (props) => {
                         <i className="ri-map-pin-user-fill"></i>
                         <div>
                             <h3 className='text-lg font-medium'>562/11-A</h3>
-                            <p className='text-sm -mt-1 text-gray-600'>Pune, Maharastra</p>
+                            <p className='text-sm -mt-1 text-gray-600'>{props.ride?.pickup}</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-5 py-2 border-b-2'>
                         <i className="text-lg ri-map-pin-fill"></i>
                         <div>
                             <h3 className='text-lg font-medium'>562/11-A</h3>
-                            <p className='text-sm -mt-1 text-gray-600'>Pune, Maharastra</p>
+                            <p className='text-sm -mt-1 text-gray-600'>{props.ride?.destination}</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-5 py-2 '>
                         <i className="ri-currency-line"></i>
                         <div>
-                            <h3 className='text-lg font-medium'>₹220</h3>
+                            <h3 className='text-lg font-medium'>₹{props.ride?.fare}</h3>
                             <p className='text-sm -mt-1 text-gray-600'>Cash Cash</p>
                         </div>
                     </div>
