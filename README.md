@@ -116,5 +116,5 @@ Backend/
 ```
 # Screenshots
 ![Home Interface](Home.png)
-![User Signin Interface](ScreenShots\signIn.png)
-![User Home Page](./ScreenShots\UserHome.png)
+![User Signin Interface](CaptainHome.png)
+![User Home Page](signIn.png)
