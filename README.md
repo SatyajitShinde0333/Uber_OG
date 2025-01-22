@@ -115,6 +115,6 @@ Backend/
 └── socket.js
 ```
 # Screenshots
-![Home Interface](ScreenShots\Home.png)
+![Home Interface](Uber_OG\Home.png)
 ![User Signin Interface](ScreenShots\signIn.png)
 ![User Home Page](./ScreenShots\UserHome.png)
